@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula122_Exercicio2_StrigBuilder", "Aula122_Exercicio2_StrigBuilder\Aula122_Exercicio2_StrigBuilder.csproj", "{7581EBC4-D764-4181-81ED-8608B18E18F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7581EBC4-D764-4181-81ED-8608B18E18F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7581EBC4-D764-4181-81ED-8608B18E18F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7581EBC4-D764-4181-81ED-8608B18E18F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7581EBC4-D764-4181-81ED-8608B18E18F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44B4E917-79ED-4D5B-AF09-296018D70E37}
+	EndGlobalSection
+EndGlobal
