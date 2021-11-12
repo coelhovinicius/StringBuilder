@@ -11,7 +11,7 @@ namespace Aula122_Exercicio2_StrigBuilder.Entities
         {
         }
 
-        public Comment(string text) // Using "Generate constructor..."
+        public Comment(string text) // Using "Generate constructor..." - Construtor com argumento
         {
             Text = text;
         }

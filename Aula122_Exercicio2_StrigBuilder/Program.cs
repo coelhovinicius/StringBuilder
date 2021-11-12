@@ -34,8 +34,9 @@
  * 
  */
 
+/* >>> PROGRAMA PRINCIPAL <<< */
+
 using System;
-using System.Globalization;
 using Aula122_Exercicio2_StrigBuilder.Entities;
 
 namespace Aula122_Exercicio2_StrigBuilder
@@ -45,19 +46,19 @@ namespace Aula122_Exercicio2_StrigBuilder
         static void Main(string[] args)
         {
             // ENTRADA DE DADOS DIRETO NO CODIGO
-            Comment c1 = new Comment("Have a nice trip"); // COMENTARIOS
+            Comment c1 = new Comment("Have a nice trip"); // COMENTARIOS (using Aula122_Exercicio2_StrigBuilder.Entities)
             Comment c2 = new Comment("Wow that's awesome!");
-            Post p1 = new Post(
+            Post p1 = new Post( // Post 1
                 DateTime.Parse("21/06/2018 13:05:44"),
                 "Traveling to New Zeland ",
                 "I'm going to visit this wonderful country!",
-                12); // POST
+                12); // Argumentos: Moment, Title, Content e Likes
             p1.AddComment(c1);
             p1.AddComment(c2);
 
             Comment c3 = new Comment("Good night");
             Comment c4 = new Comment("May the Force be with you");
-            Post p2 = new Post(
+            Post p2 = new Post( // Post 2
                 DateTime.Parse("28/07/2018 23:14:19"),
                 "Good night guys",
                 "See you tomorrow",
